@@ -89,8 +89,10 @@ a:hover {
   ul {
     flex-wrap: nowrap;
   }
+  ul li {
+    width: max-content;
+  }
   .clock-container {
     border-radius: 300px;
   }
-  
 }
