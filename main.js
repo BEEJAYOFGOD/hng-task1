@@ -29,7 +29,7 @@ function updateTime() {
     hour_12 = hour_24;
   }
   if (hour_12 < 9) {
-    hour_12 = hour_24.toString().padStart(2, "0");
+    hour_12 = hour_12.toString().padStart(2, "0");
   }
   console.log(hour_24);
   if (mins < 10) {
