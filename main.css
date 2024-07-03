@@ -55,6 +55,7 @@ ul {
 ul li a {
   text-decoration: none;
   color: blue;
+  width: 100%;
 }
 a:hover {
   color: green;
@@ -91,4 +92,5 @@ a:hover {
   .clock-container {
     border-radius: 300px;
   }
+  
 }
