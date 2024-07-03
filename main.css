@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  font-family: "roboto";
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  max-width: 99vw;
+  gap: 1em;
+  background-color: aqua;
+  padding: 2rem;
+  border-radius: 30px;
+}
+.greeting {
+  font-size: 2em;
+}
+
+#my-goals {
+  font-size: 1em;
+}
+.my-deets {
+  max-width: 50%;
+  font-size: 1.5em;
+  font-family: "roboto";
+}
+
+.img-container {
+  /* width: 300px;
+  height: 500px; */
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+.clock-container {
+  margin-top: 2em;
+  width: 98vw;
+  background-color: darksalmon;
+  border-radius: 30px;
+  padding: 2em;
+  text-align: center;
+}
+
+[data-testid="currentTimeUTC"] {
+  color: red;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 2em;
+  justify-content: center;
+}
+
+ul li a {
+  text-decoration: none;
+  color: blue;
+}
+#email {
+  font-size: 0.8em;
+}
+
+@media (max-width: 760px) {
+  html {
+    width: 100%;
+  }
+  .about-me {
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: white;
+  }
+  .img-container {
+    align-self: center;
+  }
+  .my-deets {
+    width: 600px;
+    border: 1px solid red;
+    margin: 0 auto;
+  }
+}

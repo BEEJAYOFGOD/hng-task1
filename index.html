@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <section class="about-me">
+      <div class="my-deets">
+        <p class="greeting">
+          Hello I'm <span data-testid="slackDisplayName">bigJesus</span>
+        </p>
+        <p id="my-goals">
+          In two years, I aim to excel as a frontend engineer by mastering
+          modern web technologies, enhancing user experience through innovative
+          design, and contributing to impactful projects within a dynamic team
+          environment.
+        </p>
+        <p id="email">
+          Email: <span data-testid="email">adexbolaji100@gmail.com</span>
+        </p>
+      </div>
+
+      <div class="img-container">
+        <img data-testid="slackProfilePicture" src="idddd.jpg" alt="" />
+      </div>
+    </section>
+    <div class="clock-container">
+      <p>The time in UTC is <span data-testid="currentTimeUTC"></span></p>
+      <p>The day of the week is <span data-testid="currentDay"></span></p>
+    </div>
+
+    <ul class="links">
+      <li data-testid="hngLink">
+        <a href="https://www.hng.tech/">HNG - LEARN</a>
+      </li>
+      <li data-testid="keywordLink">
+        <a href="https://www.keyword.dog">Keyword</a>
+      </li>
+      <li data-testid="scrapeanywebLink">
+        <a href="https://www.scrapeanyweb.site">Scrape any website</a>
+      </li>
+    </ul>
+  </body>
+  <script src="main.js"></script>
+</html>
