@@ -35,7 +35,7 @@ function updateTime() {
   if (mins < 10) {
     mins = mins.toString().padStart(2, "0");
   }
-  if (secs < 9) {
+  if (secs < 10) {
     secs = secs.toString().padStart(2, "0"); // 2-digit padding for seconds (corrected from 5)
   }
 
