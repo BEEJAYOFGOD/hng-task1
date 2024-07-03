@@ -34,7 +34,7 @@ section {
 }
 .clock-container {
   margin-top: 2em;
-  width: 98vw;
+  max-width: 98vw;
   background-color: darksalmon;
   border-radius: 30px;
   padding: 2em;
@@ -56,6 +56,9 @@ ul li a {
   text-decoration: none;
   color: blue;
 }
+a:hover {
+  color: green;
+}
 #email {
   font-size: 0.8em;
 }
@@ -71,10 +74,21 @@ ul li a {
   }
   .img-container {
     align-self: center;
+    justify-content: center;
   }
   .my-deets {
-    width: 600px;
-    border: 1px solid red;
+    max-width: 600px;
+    /* border: 1px solid red; */
     margin: 0 auto;
+    text-align: center;
+  }
+  #email {
+    color: red;
+  }
+  ul {
+    flex-wrap: nowrap;
+  }
+  .clock-container {
+    border-radius: 300px;
   }
 }
